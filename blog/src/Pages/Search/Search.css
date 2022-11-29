@@ -1,0 +1,62 @@
+.searchLight {
+    background-color: rgba(49, 48, 55, 0.1);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    color: #313037;
+    padding: 72px 21%;
+}
+
+.searchDark {
+    background-color: rgba(49, 48, 55, 0.1);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    color: #fff;
+    padding: 72px 21%;
+}
+
+.postsWrapperLight {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 40px;
+}
+
+.postsWrapperDark {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 40px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .searchLight, .searchDark { 
+        padding: 50px 15%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .searchLight, .searchDark { 
+        font-size: 42px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .searchLight, .searchDark { 
+        padding: 30px 10%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .searchLight, .searchDark { 
+        font-size: 28px;
+        line-height: 48px;
+    }
+}

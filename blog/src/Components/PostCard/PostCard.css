@@ -1,0 +1,131 @@
+.postWrapperLight {
+    width: 18vw;
+    height: 70vh;
+    border-radius: 16px;
+    background: #fff;
+}
+
+.postWrapperDark {
+    width: 18vw;
+    height: 70vh;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.postImgLight, .postImgDark {
+    width: 18vw;
+    height: 30vh;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.postInfoLight, .postInfoDark {
+    padding: 0 32px 32px 32px;
+}
+
+.postDataLight {
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(49, 48, 55, 0.5);
+}
+
+.postDataDark {
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.postTitleLight {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #313037;
+}
+
+.postTitleDark {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1440px) {
+    .postWrapperLight, .postWrapperDark {
+        width: 20vw;
+        height: 70vh;
+    }
+
+    .postImgLight, .postImgDark {
+        width: 20vw;
+        margin-bottom: 16px;
+    }
+
+    .postInfoLight, .postInfoDark {
+        padding: 0 16px 16px 16px;
+    }
+    
+    .postTitleLight, .postTitleDark {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .postWrapperLight, .postWrapperDark {
+        width: 20vw;
+        height: 70vh;
+    }
+
+    .postImgLight, .postImgDark {
+        width: 20vw;
+    }
+
+    .postTitleLight, .postTitleDark {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .postDataLight, .postDataDark {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .postWrapperLight, .postWrapperDark {
+        width: 35vw;
+        height: 70vh;
+    }
+
+    .postImgLight, .postImgDark {
+        width: 35vw;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .postWrapperLight, .postWrapperDark {
+        width: 75vw;
+        height: 70vh;
+    }
+
+    .postImgLight, .postImgDark {
+        width: 75vw;
+    }
+
+    .postInfoLight, .postInfoDark {
+        padding: 0 20px 20px 20px;
+    }
+}
+

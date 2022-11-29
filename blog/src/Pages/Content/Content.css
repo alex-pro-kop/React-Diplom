@@ -1,0 +1,173 @@
+.loaderLight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(49, 48, 55, 0.1);
+    height: 100vh;
+    width: 100wh;
+}
+
+.loaderDark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(49, 48, 55, 0.1);
+    height: 100vh;
+    width: 100wh;
+}
+
+.contentContainerLight {
+    background: rgba(49, 48, 55, 0.1);
+    padding: 72px 21%;
+}
+
+.contentContainerDark {
+    background: rgba(49, 48, 55, 0.1);
+    padding: 72px 21%;
+}
+
+.contentNavLight {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+
+.contentNavLight div {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(49, 48, 55, 0.5);
+}
+
+.contentNavDark {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+
+.contentNavDark div {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contentLinkLight {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+    text-decoration: none;
+}
+
+.contentLinkDark {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contentTitleLight {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    color: #313037;
+    margin-bottom: 48px;
+}
+
+.contentTitleDark {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.contentImgLight, .contentImgDark {
+    width: 100%;
+    height: 518px;
+    border-radius: 16px;
+    margin-bottom: 48px;
+}
+
+.contentTextLight {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #313037;
+    text-align: center;
+    margin-bottom: 145px;
+}
+
+.contentTextDark {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-bottom: 145px;
+}
+
+.anotherPostsLight, .anotherPostsDark {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .contentImgLight, .contentImgDark {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .contentTitleLight, .contentTitleDark {
+        font-size: 36px;
+        line-height: 84px;
+    }
+
+    .contentImgLight, .contentImgDark {
+        width: 100%;
+        height: 300px;
+    }
+
+    .anotherPostsLight, .anotherPostsDark {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .contentContainerLight, .contentContainerDark {
+        padding: 50px 10%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .contentTitleLight, .contentTitleDark {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .contentImgLight, .contentImgDark {
+        height: 224px;
+    }
+}
+

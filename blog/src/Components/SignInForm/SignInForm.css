@@ -1,0 +1,293 @@
+.signInWrapperLight {
+    background-color:  rgba(49, 48, 55, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.signInWrapperLight h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    color: #313037;
+    margin-right: 900px;
+}
+
+.signInWrapperDark {
+    background-color:  rgba(49, 48, 55, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.signInWrapperDark h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-right: 900px;
+}
+
+.signInFormLight {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 624px;
+    height: 472px;
+}
+
+.signInFormLight div {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #313037;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.signInFormLight p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8D8E97;
+    text-align: center;
+}
+
+.signInFormDark {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 624px;
+    height: 472px;
+}
+
+.signInFormDark div {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.signInFormDark p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8D8E97;
+    text-align: center;
+}
+
+.signInFormInputLight {
+    width: 544px;
+    height: 56px;
+    padding: 0 0 0 20px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(49, 48, 55, 0.1);
+    border-radius: 4px;
+}
+
+.signInFormInputDark {
+    width: 544px;
+    height: 56px;
+    padding: 0 0 0 20px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(49, 48, 55, 0.1);
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.signInFormInputPasswordLight {
+    width: 544px;
+    height: 56px;
+    padding: 0 0 0 20px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(49, 48, 55, 0.1);
+    border-radius: 4px;
+}
+
+.signInFormInputPasswordDark {
+    width: 544px; 
+    height: 56px;
+    padding: 0 0 0 20px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(49, 48, 55, 0.1);
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.formButtonForgotLight {
+    background-color: transparent;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color:#313037;
+    margin-bottom: 48px;
+    margin-right: auto;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.formButtonForgotDark {
+    background-color: transparent;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 48px;
+    margin-right: auto;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.formButtonSignInnLight {
+    width: 544px;
+    height: 56px;
+    background: #6C1BDB;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 4px;
+    border: none;
+    padding: 0;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.formButtonSignInnDark {
+    width: 544px;
+    height: 76px;
+    background: #6C1BDB;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 4px;
+    border: none;
+    padding: 0;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.formButtonSignUppLight {
+    background-color: transparent;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6C1BDB;
+    padding: 0;
+}
+
+.formButtonSignUppDark {
+    background-color: transparent;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6C1BDB;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1440px) {
+    .signInWrapperLight h1, .signInWrapperDark h1 {
+        margin-right: 600px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .signInWrapperLight h1, .signInWrapperDark h1 {
+        margin-right: 500px;
+        font-size: 48px;
+    }
+
+    .signInFormLight, .signInFormDark {
+        width: 500px;
+    }
+
+    .formButtonSignInnLight, .formButtonSignInnDark {
+        width: 450px;
+        height: 50px;
+    }
+
+    .signInFormInputLight, .signInFormInputDark, .signInFormInputPasswordLight, .signInFormInputPasswordDark {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .signInWrapperLight h1, .signInWrapperDark h1 {
+        margin-right: 400px;
+        font-size: 48px;
+    }
+
+    .signInFormInputLight, .signInFormInputDark, .signInFormInputPasswordLight, .signInFormInputPasswordDark {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .signInWrapperLight, .signInWrapperDark {
+        gap: 30px;
+    }
+
+    .signInWrapperLight h1, .signInWrapperDark h1 {
+        margin-right: 120px;
+        font-size: 32px;
+    }
+
+    .signInFormLight, .signInFormDark {
+        width: 220px;
+        padding: 15px;
+    }
+
+    .formButtonSignInnLight, .formButtonSignInnDark {
+        width: 205px;
+        height: 50px;
+    }
+
+    .signInFormInputLight, .signInFormInputDark, .signInFormInputPasswordLight, .signInFormInputPasswordDark {
+        width: 205px;
+    }
+
+    .signInFormLight div, .signInFormDark div {
+        text-align: start;
+    }
+}

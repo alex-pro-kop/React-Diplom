@@ -1,0 +1,59 @@
+.homeWrapper {
+    background: rgba(49, 48, 55, 0.1);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeWrapper h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    color: #6C1BDB;
+}
+
+.formButtonSignIn {
+    width: 400px;
+    height: 80px;
+    background: #6C1BDB;
+    border-radius: 4px;
+    border: none;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    .homeWrapper h1 {
+        font-size: 42px;
+    }
+
+    .formButtonSignIn {
+        width: 300px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .homeWrapper {
+        justify-content: flex-start;
+        padding: 130px 20px 0px 20px;
+        text-align: center;
+    }
+    .homeWrapper h1 {
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    .formButtonSignIn {
+        width: 200px;
+        height: 60px;
+        font-size: 24px;
+    }
+}

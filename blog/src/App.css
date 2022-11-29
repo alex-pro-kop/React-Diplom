@@ -1,0 +1,10 @@
+.light {
+    background-color: rgba(49, 48, 55, 0.1);
+    transition: 0.5s;
+}
+
+.dark {
+    background: #313037;
+    transition: 0.5s;
+}
+

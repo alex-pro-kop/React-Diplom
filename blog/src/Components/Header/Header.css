@@ -1,0 +1,193 @@
+.headerLight {
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    background-color: #fff;
+}
+
+.headerLight img {
+    height: 6vh;
+    cursor: pointer;
+}
+
+.headerDark {
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.headerDark img {
+    height: 6vh;
+    cursor: pointer;
+}
+
+.headerSearchLight {
+    margin-left: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 2rem;
+}
+
+.headerSearchDark {
+    margin-left: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 2rem;
+}
+
+.inputLight {
+    height: 96px;
+    width: 70vw;
+    padding-left: 32px;
+    border: none;
+}
+
+.inputDark {
+    height: 96px;
+    width: 70vw;
+    padding-left: 32px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.headerSignInLight {
+    display: flex;
+    align-items: center;
+}
+
+.headerSignInDark {
+    display: flex;
+    align-items: center;
+}
+
+.headerSignInButtonLight {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    color: #313037;
+    width: 5vw;
+}
+
+.headerSignInButtonDark {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    color: #fff;
+    width: 5vw;
+}
+
+.headerAuthUserLight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    color: #313037;
+}
+
+.headerAuthUserDark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1440px) {
+    .headerLight, .headerDark {
+        height: 80px;
+    }
+
+    .inputLight, .inputDark {
+        height: 80px;
+    }
+
+    .headerAuthUserLight div, .headerAuthUserDark div {
+        font-size: 14px;
+        line-height: 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .headerLight, .headerDark {
+        height: 60px;
+    }
+
+    .inputLight, .inputDark {
+        height: 60px;
+        width: 65vw;
+    }
+
+    .headerAuthUserLight div, .headerAuthUserDark div {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .headerLight, .headerDark {
+        padding: 0 16px;
+    }
+
+    .inputLight, .inputDark {
+        width: 60vw;
+    }
+
+    .headerSearchLight, .headerSearchDark {
+        margin-right: 1rem;
+    }
+
+    .headerAuthUserLight div, .headerAuthUserDark div {
+        font-size: 8px;
+        line-height: 15px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .user {
+        display: none;
+    }
+
+    .headerSearchLight, .headerSearchDark {
+        display: none;
+    }
+
+    .headerSignInButtonLight, .headerSignInButtonDark {
+        display: none;
+    }
+
+    .headerAuthUserLight, .headerAuthUserDark {
+        display: none;
+    }
+}
+
+

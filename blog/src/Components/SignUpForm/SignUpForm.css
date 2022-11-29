@@ -1,0 +1,269 @@
+.signUpWrapperLight {
+    background-color:  rgba(49, 48, 55, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.signUpWrapperLight h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    color: #313037;
+    margin-right: 900px;
+}
+
+.signUpWrapperDark {
+    background-color:  rgba(49, 48, 55, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.signUpWrapperDark h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    color: #fff;
+    margin-right: 900px;
+}
+
+.signUpFormLight {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 624px;
+    height: 472px;
+}
+
+.signUpFormLight div {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #313037;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.signUpFormLight p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8D8E97;
+    text-align: center;
+}
+
+.signUpFormDark {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 624px;
+    height: 472px;
+}
+
+.signUpFormDark div {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.signUpFormDark p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8D8E97;
+    text-align: center;
+}
+
+.signUpFormInputLight {
+    width: 544px;
+    height: 56px;
+    padding: 0 0 0 20px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(49, 48, 55, 0.1);
+    border-radius: 4px;
+}
+
+.signUpFormInputDark {
+    width: 544px;
+    height: 56px;
+    padding: 0 0 0 20px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(49, 48, 55, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.signUpFormInputPasswordLight {
+    width: 544px;
+    height: 56px;
+    padding: 0 0 0 20px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(49, 48, 55, 0.1);
+    border-radius: 4px;
+}
+
+.signUpFormInputPasswordDark {
+    width: 544px;
+    height: 56px;
+    padding: 0 0 0 20px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(49, 48, 55, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.formButtonSignUpLight {
+    width: 544px;
+    height: 56px;
+    background: #6C1BDB;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 4px;
+    border: none;
+    padding: 0;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    margin-top: 30px;
+}
+
+.formButtonSignUpDark {
+    width: 544px;
+    height: 56px;
+    background: #6C1BDB;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 4px;
+    border: none;
+    padding: 0;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    margin-top: 30px;
+}
+
+.formButtonSignInLight {
+    background-color: transparent;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6C1BDB;
+    padding: 0;
+}
+
+.formButtonSignInDark {
+    background-color: transparent;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6C1BDB;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1440px) {
+    .signUpWrapperLight h1, .signUpWrapperDark h1 {
+        margin-right: 600px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .signUpWrapperLight h1, .signUpWrapperDark h1 {
+        margin-right: 500px;
+        font-size: 48px;
+    }
+
+    .signUpFormLight, .signUpFormDark {
+        width: 500px;
+    }
+
+    .formButtonSignUpLight, .formButtonSignUpDark {
+        width: 450px;
+        height: 50px;
+        margin-top: 60px;
+    }
+
+    .signUpFormInputLight, .signUpFormInputDark, .signUpFormInputPasswordLight, .signUpFormInputPasswordDark {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .signUpWrapperLight h1, .signUpWrapperDark h1 {
+        margin-right: 400px;
+        font-size: 48px;
+    }
+
+    .signUpFormInputLight, .signUpFormInputDark, .signUpFormInputPasswordLight, .signUpFormInputPasswordDark {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .signUpWrapperLight, .signUpWrapperDark {
+        gap: 30px;
+    }
+
+    .signUpWrapperLight h1, .signUpWrapperDark h1 {
+        margin-right: 100px;
+        font-size: 32px;
+    }
+
+    .signUpFormLight, .signUpFormDark {
+        width: 220px;
+        padding: 10px;
+    }
+
+    .formButtonSignUpLight, .formButtonSignUpDark {
+        width: 205px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .signUpFormInputLight, .signUpFormInputDark, .signUpFormInputPasswordLight, .signUpFormInputPasswordDark {
+        width: 205px;
+        margin-bottom: 15px;
+        padding-left: 5px;
+    }
+
+    ::placeholder {
+        font-size: 9px;
+    }
+}
